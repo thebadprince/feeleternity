@@ -42,6 +42,10 @@ h1 {
   color: #dedede;
 }
 
+h2 {
+  color: #58a6ff;
+}
+
 a {
   text-decoration: none;
   border-bottom: 2px solid;
@@ -53,7 +57,15 @@ a:visited {
 }
 
 a:hover, a:visited:hover {
-  color: #bbbbbb;
+  color: #ffffff;
+}
+
+h2 a {
+  color: #58a6ff;
+}
+
+h2 a:visited {
+  color: #58a6ff;
 }
 
 ul {
@@ -97,6 +109,10 @@ footer p {
   .what-we-do li {
     font-size: 16px;
     margin-bottom: 24px;
+  }
+
+  h2 a {
+    color: #ffffff;
   }
 
   li a:visited {

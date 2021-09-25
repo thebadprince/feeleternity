@@ -99,6 +99,10 @@ footer p {
     margin-bottom: 24px;
   }
 
+  li a {
+    color: #ffffff;
+  }
+
   footer {
     left: 24;
   }

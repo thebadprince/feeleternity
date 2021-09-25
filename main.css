@@ -49,11 +49,11 @@ a {
 }
 
 a:visited {
-  color: #ffffff;
+  color: #bbbbbb;
 }
 
 a:hover, a:visited:hover {
-  color: #ffffff;
+  color: #bbbbbb;
 }
 
 ul {
@@ -99,8 +99,8 @@ footer p {
     margin-bottom: 24px;
   }
 
-  li a {
-    color: #ffffff;
+  li a:visited {
+    color: #bbbbbb;
   }
 
   footer {

@@ -74,7 +74,7 @@ a:hover, a:visited:hover {
 
 h2.description {
   font-family: 'Countach', sans-serif;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 400;
   color: #58a6ff;
   margin-top: 0;
@@ -95,7 +95,7 @@ ul {
 
 header {
   margin-top: 64px;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 header img {
@@ -104,7 +104,7 @@ header img {
 
 .what-we-do li {
   /* font-size: 48px; */
-  font-size: 18px;
+  font-size: 32px;
   margin-bottom: 1.5em;
 }
 
@@ -128,13 +128,13 @@ footer p {
   }
 
   .what-we-do li {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 48px;
   }
 
   h2.description {
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     font-size: 48px;
     line-height: 1.2;
   }

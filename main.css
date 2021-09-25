@@ -24,7 +24,8 @@
 }
 
 body {
-  background-color: #202124;
+  /* background-color: #202124; */
+  background-color: #051d4d;
   font-size: 16px;
   line-height: 1.5;
   font-family: 'iAWriter', monospace;

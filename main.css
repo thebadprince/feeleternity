@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'iAWriter';
+  font-style: normal;
+  src:  url('fonts/iAWriter/iAWriterMonoS-Regular.woff2') format('woff2'),
+        url('fonts/iAWriter/iAWriterMonoS-Regular.woff') format('woff'),
+        url('fonts/iAWriter/iAWriterMonoS-Italic.woff2') format('woff2'),
+        url('fonts/iAWriter/iAWriterMonoS-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'iAWriter';
+    src:  url('fonts/iAWriter/iAWriterMonoS-Bold.woff2') format('woff2'),
+          url('fonts/iAWriter/iAWriterMonoS-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'iAWriter';
+    src:  url('fonts/iAWriter/iAWriterMonoS-BoldItalic.woff2') format('woff2'),
+          url('fonts/iAWriter/iAWriterMonoS-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+  background-color: #202124;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'iAWriter', monospace;
+  color: #bbbbbb;
+  margin: 40px;
+}
+
+h1 {
+  /* font-family: 'Azeret Mono', monospace;
+  font-weight: 900; */
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  font-size: 36px;
+  color: #dedede;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover, a:visited:hover {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+header {
+  margin-bottom: 64px;
+}
+
+header img {
+  width: 100%;
+}
+
+.what-we-do li {
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 40;
+  bottom: 24;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+
+@media (max-width: 425px) {
+  body {
+    margin: 24px;
+    font-size: 16px;
+  }
+
+  .what-we-do li {
+    font-size: 16px;
+  }
+
+}

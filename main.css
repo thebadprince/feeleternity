@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'iAWriter';
   font-style: normal;
   src:  url('fonts/iAWriter/iAWriterMonoS-Regular.woff2') format('woff2'),
@@ -21,29 +21,41 @@
           url('fonts/iAWriter/iAWriterMonoS-BoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Countach';
+  font-style: normal;
+  src:  url('fonts/Countach/countachweb-regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Signal Mono';
+  font-style: normal;
+  src:  url('fonts/SignalMono/signalmonoweb-light.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'Signal Mono';
+  font-style: bold;
+  src:  url('fonts/SignalMono/signalmonoweb-bold.woff') format('woff'),
+}
+
+
 
 body {
   /* background-color: #202124; */
   background-color: #051d4d;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'iAWriter', monospace;
-  color: #bbbbbb;
-  margin: 40px;
-}
-
-h1 {
-  /* font-family: 'Azeret Mono', monospace;
-  font-weight: 900; */
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-  font-size: 36px;
+  /* font-family: 'iAWriter', monospace; */
+  font-family: 'Signal Mono', monospace;
+  font-weight: 300;
   color: #dedede;
-}
-
-h2 {
-  color: #58a6ff;
+  margin: 40px;
+  /* max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 a {
@@ -60,6 +72,14 @@ a:hover, a:visited:hover {
   color: #ffffff;
 }
 
+h2.description {
+  font-family: 'Countach', sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #58a6ff;
+  margin-top: 0;
+}
+
 h2 a {
   color: #58a6ff;
 }
@@ -73,12 +93,9 @@ ul {
   padding-left: 0;
 }
 
-li {
-  margin-bottom: 20px;
-}
-
 header {
-  margin-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 40px;
 }
 
 header img {
@@ -86,12 +103,16 @@ header img {
 }
 
 .what-we-do li {
-  font-size: 20px;
+  /* font-size: 48px; */
+  font-size: 18px;
+  margin-bottom: 1.5em;
 }
 
 footer {
   position: fixed;
-  left: 40;
+  left: 40; */
+  text-align: center;
+  /* margin-top: 140px; */
   bottom: 24;
 }
 
@@ -111,8 +132,11 @@ footer p {
     margin-bottom: 24px;
   }
 
-  h2 {
-    font-size: 20px;
+  h2.description {
+    margin-top: 20px;
+    margin-bottom: 64px;
+    font-size: 42px;
+    line-height: 1.2;
   }
 
   li a:visited {
@@ -121,6 +145,8 @@ footer p {
 
   footer {
     left: 24;
+    margin-top: 64px;
+    position: static;
   }
 
 }

@@ -45,10 +45,11 @@ h1 {
 a {
   text-decoration: none;
   border-bottom: 2px solid;
+  color: #ffffff;
 }
 
 a:visited {
-  color: inherit;
+  color: #ffffff;
 }
 
 a:hover, a:visited:hover {

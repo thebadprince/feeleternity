@@ -133,10 +133,10 @@ footer p {
   }
 
   h2.description {
-    margin-top: 20px;
-    margin-bottom: 48px;
-    font-size: 48px;
+    font-size: 56px;
     line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 64px;
   }
 
   li a:visited {

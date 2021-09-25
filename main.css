@@ -47,15 +47,14 @@ body {
   /* background-color: #202124; */
   background-color: #051d4d;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   /* font-family: 'iAWriter', monospace; */
   font-family: 'Signal Mono', monospace;
   font-weight: 300;
   color: #dedede;
   margin: 40px;
-  /* max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; */
+  max-width: 1400px;
+  min-width: 1200px;
 }
 
 a {
@@ -72,12 +71,20 @@ a:hover, a:visited:hover {
   color: #ffffff;
 }
 
+header img {
+  width: 200px;
+  /* position: fixed; */
+}
+
 h2.description {
   font-family: 'Countach', sans-serif;
-  font-size: 72px;
+  font-size: 80px;
+  line-height: 1.1;
   font-weight: 400;
   color: #58a6ff;
-  margin-top: 0;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  width: 85%;
 }
 
 h2 a {
@@ -93,33 +100,31 @@ ul {
   padding-left: 0;
 }
 
-header {
-  margin-top: 48px;
-  margin-bottom: 48px;
-}
-
-header img {
-  width: 100%;
-}
-
 .what-we-do li {
-  /* font-size: 48px; */
-  font-size: 24px;
-  margin-bottom: 1.5em;
+  font-size: 48px;
+  font-size: 18px;
+  margin-bottom: 2em;
+  width: 60%;
 }
 
 footer {
   position: fixed;
   left: 40; */
   text-align: center;
-  /* margin-top: 140px; */
-  bottom: 24;
+  bottom: 20;
 }
 
 footer p {
   font-size: 10px;
+  color: #999999;
 }
 
+footer a {
+  border-bottom: 0;
+}
+
+
+/***** Media Queries *****/
 
 @media (max-width: 425px) {
   body {

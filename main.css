@@ -160,7 +160,7 @@ footer a {
   h2.description {
     font-size: 44px;
     line-height: 1.2;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 64px;
   }
 

@@ -57,7 +57,7 @@ body {
   font-family: 'iAWriter', monospace;
   color: #dedede;
   margin: 40px;
-  max-width: 1400px;
+  max-width: 1440px;
   min-width: 1200px;
 }
 
@@ -129,7 +129,7 @@ footer {
   left: 40; */
   text-align: center;
   bottom: 20;
-  margin-top: 140px;
+  margin-top: 160px;
 }
 
 footer p {
@@ -143,6 +143,17 @@ footer a {
 
 
 /***** Media Queries *****/
+
+@media (min-width: 1400px) {
+
+  .intro {
+    margin-top: 200px;
+  }
+
+  h2.description {
+    font-size: 100px;
+}
+
 
 @media (max-width: 425px) {
   body {

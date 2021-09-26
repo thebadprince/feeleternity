@@ -32,6 +32,7 @@
 @font-face {
   font-family: 'Signal Mono';
   font-style: normal;
+  font-weight: 300;
   src:  url('fonts/SignalMono/signalmonoweb-light.woff') format('woff'),
 }
 
@@ -47,11 +48,9 @@ html {
 
 
 body {
-  /* background-color: #202124; */
   background-color: #051d4d;
   font-size: 16px;
   line-height: 1.6;
-  /* font-family: 'iAWriter', monospace; */
   font-family: 'Signal Mono', monospace;
   font-weight: 300;
   color: #dedede;
@@ -117,6 +116,7 @@ ul {
 }
 
 .what-we-do-2 li {
+  font-family: 'Signal Mono', monospace;
   font-size: 22px;
   line-height: 1.6;
   margin-bottom: 3em;

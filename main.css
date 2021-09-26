@@ -151,6 +151,10 @@ footer a {
     min-width: 325px;
   }
 
+  .intro {
+    margin-top: 80px;
+  }
+
   .what-we-do-2 li {
     font-size: 18px;
     margin-bottom: 56px;

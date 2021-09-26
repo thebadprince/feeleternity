@@ -147,11 +147,14 @@ footer a {
   body {
     margin: 24px;
     font-size: 16px;
+    max-width: 375px;
+    min-width: 325px;
   }
 
-  .what-we-do li {
+  .what-we-do-2 li {
     font-size: 18px;
     margin-bottom: 56px;
+    width: 100%;
   }
 
   h2.description {

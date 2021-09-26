@@ -39,6 +39,7 @@
 @font-face {
   font-family: 'Signal Mono';
   font-style: bold;
+  font-weight: 700;
   src:  url('fonts/SignalMono/signalmonoweb-bold.woff') format('woff'),
 }
 

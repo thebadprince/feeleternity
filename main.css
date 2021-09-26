@@ -152,7 +152,11 @@ footer a {
   }
 
   .intro {
-    margin-top: 40px;
+    margin-top: 100px;
+  }
+
+  header {
+    margin-bottom: 100px;
   }
 
   .what-we-do-2 li {

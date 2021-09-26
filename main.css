@@ -152,7 +152,7 @@ footer a {
   }
 
   .intro {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .what-we-do-2 li {
@@ -165,7 +165,7 @@ footer a {
     font-size: 44px;
     line-height: 1.2;
     /* margin-top: 20px; */
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
   }
 
   li a:visited {

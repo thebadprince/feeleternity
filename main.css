@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: 'iAWriter';
   font-style: normal;
   src:  url('fonts/iAWriter/iAWriterMonoS-Regular.woff2') format('woff2'),
@@ -21,7 +21,7 @@
           url('fonts/iAWriter/iAWriterMonoS-BoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
-} */
+}
 
 @font-face {
   font-family: 'Countach';
@@ -29,7 +29,7 @@
   src:  url('fonts/Countach/countachweb-regular.woff') format('woff');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Signal Mono';
   font-style: normal;
   font-weight: 300;
@@ -41,7 +41,7 @@
   font-style: bold;
   font-weight: 700;
   src:  url('fonts/SignalMono/signalmonoweb-bold.woff') format('woff'),
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -52,8 +52,9 @@ body {
   background-color: #051d4d;
   font-size: 16px;
   line-height: 1.6;
-  font-family: 'Signal Mono', monospace;
-  font-weight: 300;
+  /* font-family: 'Signal Mono', monospace;
+  font-weight: 300; */
+  font-family: 'iAWriter', monospace;
   color: #dedede;
   margin: 40px;
   max-width: 1400px;
@@ -117,8 +118,7 @@ ul {
 }
 
 .what-we-do-2 li {
-  font-family: 'Signal Mono', monospace;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 3em;
   width: 800px;

@@ -57,8 +57,6 @@ body {
   font-family: 'iAWriter', monospace;
   color: #dedede;
   margin: 40px;
-  max-width: 1440px;
-  min-width: 1200px;
 }
 
 a {
@@ -97,7 +95,7 @@ h2.description {
   font-weight: 400;
   color: #58a6ff;
   /* margin-bottom: 48px; */
-  /* width: 85%; */
+  width: 80%;
 }
 
 h2 a {
@@ -146,6 +144,7 @@ footer a {
 
 /***** Media Queries *****/
 
+
 @media (min-width: 1400px) {
 
   .intro {
@@ -154,15 +153,15 @@ footer a {
 
   h2.description {
     font-size: 100px;
+  }
 }
 
-
-@media (max-width: 425px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
     margin: 24px;
     font-size: 16px;
-    max-width: 375px;
-    min-width: 325px;
+    /* max-width: 375px;
+    min-width: 325px; */
   }
 
   .intro {
@@ -182,6 +181,7 @@ footer a {
   h2.description {
     font-size: 44px;
     line-height: 1.2;
+    width: 100%;
     /* margin-top: 20px; */
     /* margin-bottom: 64px; */
   }

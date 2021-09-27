@@ -52,8 +52,6 @@ body {
   background-color: #051d4d;
   font-size: 16px;
   line-height: 1.6;
-  /* font-family: 'Signal Mono', monospace;
-  font-weight: 300; */
   font-family: 'iAWriter', monospace;
   color: #dedede;
   margin: 40px;
@@ -85,12 +83,12 @@ header img {
 }
 
 .intro {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 h2.description {
   font-family: 'Countach', sans-serif;
-  font-size: 88px;
+  font-size: 84px;
   line-height: 1.1;
   font-weight: 400;
   color: #58a6ff;
@@ -139,6 +137,31 @@ footer p {
 
 footer a {
   border-bottom: 0;
+}
+
+
+/***** Typewriter Aninmation *****/
+
+.typing-demo {
+  width: 31ch;
+  animation: typing 1s steps(200), blink .5s step-end infinite alternate;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  100% {
+    border-color: transparent
+  }
 }
 
 

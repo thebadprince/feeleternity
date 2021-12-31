@@ -255,8 +255,8 @@ footer a {
     min-width: 325px; */
   }
 
-  .intro {
-    margin-top: 60px;
+  div.intro {
+    margin-top: 80px;
   }
 
   header {

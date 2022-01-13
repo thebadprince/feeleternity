@@ -199,6 +199,15 @@ footer a {
 
 @media (min-width: 1900px){
 
+  div.intro {
+    margin-top: 240px;
+    width: 80%;
+  }
+
+  h2.description {
+    font-size: 120px;
+  }
+  
   .what-we-do-2 li {
     width: 800px;
   }
@@ -215,8 +224,9 @@ footer a {
     margin-bottom: 0;
   }
 
-  .intro {
-    margin-top: 0;
+  div.intro {
+    margin-top: 200px;
+    width: 80%;
   }
 
   h2.description {
@@ -237,7 +247,7 @@ footer a {
 @media (min-width: 860px) and (max-width: 1440px) {
 
   div.intro {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 200px;
   }
 

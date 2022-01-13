@@ -86,14 +86,15 @@ header img {
 }
 
 div.intro {
-  margin-top: 180px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 h2.description {
   font-family: 'Countach', sans-serif;
-  font-size: 100px;
   line-height: 1.1;
   font-weight: 400;
+  font-size: 100px;
   color: #58a6ff;
 }
 
@@ -140,7 +141,7 @@ ul {
 .what-we-do-2 li {
   font-size: 20px;
   line-height: 1.6;
-  margin-bottom: 4.5em;
+  margin-bottom: 3.6em;
 }
 
 .what-we-do-2 li strong {
@@ -197,9 +198,6 @@ footer a {
 /***** Media Queries *****/
 
 @media (min-width: 1900px){
-  h2.description {
-  font-size: 128px;
-  }
 
   .what-we-do-2 li {
     width: 800px;
@@ -209,12 +207,6 @@ footer a {
     margin-top: 200px;
   }
 
-}
-
-@media (min-width: 1800px) and (max-width: 1899px){
-    h2.description {
-      font-size: 108px;
-    }
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -228,10 +220,9 @@ footer a {
   }
 
   h2.description {
-    margin-top: 0px;
-    font-size: 100px;
-    width: 100%;
+    font-size: 110px;
   }
+
 
   .what-we-do-2 li {
     font-size: 21px;
@@ -245,17 +236,22 @@ footer a {
 
 @media (min-width: 860px) and (max-width: 1440px) {
 
+  div.intro {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
   .what-we-do-2 li {
     width: 800px;
-  }
-  
+  } 
 }
 
 
 @media (min-width: 480px) and (max-width: 860px) {
 
   div.intro {
-    margin-top: 80px;
+    margin-top: 64px;
+    margin-bottom: 120px;
   }
 
   h2.description {
@@ -275,6 +271,7 @@ footer a {
 
   div.intro {
     margin-top: 140px;
+    margin-bottom: 140px;
   }
 
   header {
@@ -282,7 +279,7 @@ footer a {
   }
 
   h2.description {
-    font-size: 48px;
+    font-size: 54px;
     line-height: 1.2;
   }
 

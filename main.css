@@ -56,7 +56,7 @@ body {
   font-family: 'iAWriter', monospace;
   /* color: #cbdbfc; */
   color: #dde8fd;
-  margin: 40px;
+  margin: 40px 40px 20px 40px;
 }
 
 a {
@@ -86,8 +86,8 @@ header img {
 }
 
 div.intro {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 240px;
+  margin-bottom: 40px;
 }
 
 h2.description {
@@ -156,6 +156,7 @@ footer {
   text-align: center;
   bottom: 20;
   margin-top: 180px;
+  margin-bottom: 0;
 }
 
 footer p {

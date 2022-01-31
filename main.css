@@ -75,7 +75,7 @@ a:hover, a:visited:hover {
 }
 
 header {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 header img {
@@ -86,7 +86,7 @@ header img {
 }
 
 div.intro {
-  margin-top: 240px;
+  margin-top: 160px;
   margin-bottom: 40px;
 }
 
@@ -157,6 +157,7 @@ footer {
   bottom: 20;
   margin-top: 180px;
   margin-bottom: 0;
+  position: fixed;
 }
 
 footer p {
@@ -201,7 +202,7 @@ footer a {
 @media (min-width: 1900px){
 
   div.intro {
-    margin-top: 240px;
+    margin-top: 140px;
     width: 80%;
   }
 

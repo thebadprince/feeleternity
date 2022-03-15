@@ -75,32 +75,34 @@ a:hover, a:visited:hover {
 }
 
 header {
-  margin-bottom: 80px;
+  margin-top: 40px;
 }
 
 header img {
-  width: 200px;
+  width: 240px;
   /* position: fixed; */
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-  animation: 1s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  animation: 2s ease 0s normal forwards 1 fadein;
 }
 
-div.intro {
-  margin-top: 160px;
+/* div.intro {
+  /* margin-top: 160px; 
   margin-bottom: 40px;
-}
+}*/
 
 h2.description {
-  font-family: 'Countach', sans-serif;
-  line-height: 1.1;
   font-weight: 400;
-  font-size: 100px;
   color: #58a6ff;
+  position: absolute;
+  /* top: 50%; */
+  margin-top: 40px;
+  font-family: 'iAWriter';
+  font-size: 24px;
 }
 
 .first {
-  -webkit-animation: 2s ease-in-out 0s normal forwards 1 fadein;
-  animation: 2s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 4s ease-in-out 0s normal forwards 1 fadein;
+  animation: 4s ease 0s normal forwards 1 fadein;
 }
 
 .second {
@@ -149,14 +151,19 @@ ul {
   text-transform: uppercase;
 }
 
+/* body p {
+  position: absolute;
+  top: 25%;
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+} */
+
 
 footer {
-  left: 40; */
-  text-align: center;
   bottom: 20;
-  margin-top: 180px;
-  margin-bottom: 0;
   position: fixed;
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 footer p {
@@ -225,13 +232,13 @@ footer a {
     margin-bottom: 0;
   }
 
-  div.intro {
+  /* div.intro {
     margin-top: 100px;
     width: 1280px;
-  }
+  } */
 
   h2.description {
-    font-size: 110px;
+    /* font-size: 110px; */
   }
 
 
@@ -247,11 +254,11 @@ footer a {
 
 @media (min-width: 860px) and (max-width: 1440px) {
 
-  div.intro {
+  /* div.intro {
     margin-top: 100px;
     margin-bottom: 200px;
     width: 100%;
-  }
+  } */
 
   .what-we-do-2 li {
     width: 800px;
@@ -261,13 +268,13 @@ footer a {
 
 @media (min-width: 480px) and (max-width: 860px) {
 
-  div.intro {
+  /* div.intro {
     margin-top: 64px;
     margin-bottom: 120px;
-  }
+  } */
 
   h2.description {
-    font-size: 80px;
+    /* font-size: 80px; */
   }
 
   .what-we-do-2 li {
@@ -282,18 +289,18 @@ footer a {
   }
 
   div.intro {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     /* margin-bottom: 140px; */
   }
 
   header {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
   } 
 
-  h2.description {
+  /* h2.description {
     font-size: 64px;
     line-height: 1.2;
-  }
+  } */
 
   .what-we-do-2 li {
     font-size: 16px;
@@ -307,10 +314,10 @@ footer a {
 
   footer {
     left: 24;
-    bottom: 40;
-    margin-top: 100px;
+    bottom: 20;
+    /* margin-top: 100px; */
     /* margin-bottom: 40px; */
-    position: static;
+    /* position: static; */
   }
 
 }

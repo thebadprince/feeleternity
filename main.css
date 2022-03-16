@@ -101,8 +101,8 @@ h2.description {
 }
 
 .first {
-  -webkit-animation: 4s ease-in-out 0s normal forwards 1 fadein;
-  animation: 4s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 3s ease-in-out 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
 }
 
 .second {
@@ -162,8 +162,8 @@ ul {
 footer {
   bottom: 20;
   position: fixed;
-  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
-  animation: 6s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+  animation: 4s ease 0s normal forwards 1 fadein;
 }
 
 footer p {
@@ -213,7 +213,7 @@ footer a {
   }
 
   h2.description {
-    font-size: 120px;
+    font-size: 36px;
   }
   
   .what-we-do-2 li {

@@ -208,12 +208,13 @@ footer a {
 @media (min-width: 1900px){
 
   div.intro {
-    margin-top: 48px;
+    /* margin-top: 48px; */
     width: 80%;
   }
 
   h2.description {
     font-size: 28px;
+    margin-top: 64px;
   }
   
   .what-we-do-2 li {

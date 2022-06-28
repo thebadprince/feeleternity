@@ -50,7 +50,8 @@ html {
 
 
 body {
-  background-color: #051d4d;
+  /* background-color: #051d4d; */
+  background-color: #000A14;
   font-size: 16px;
   line-height: 1.6;
   font-family: 'iAWriter', monospace;
@@ -96,8 +97,11 @@ h2.description {
   /* position: absolute; */
   /* top: 50%; */
   margin-top: 64px;
-  font-family: 'iAWriter';
-  font-size: 24px;
+  /* font-family: 'iAWriter'; */
+  font-family: 'Xanh Mono', monospace;
+  font-size: 36px;
+  line-height: 1.45;
+  /* width: 70%; */
 }
 
 .first {
@@ -214,11 +218,12 @@ footer a {
 
   div.intro {
     /* margin-top: 48px; */
-    width: 80%;
+    width: 60%;
   }
 
   h2.description {
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 40px;
     margin-top: 64px;
   }
   
@@ -260,15 +265,23 @@ footer a {
 
 @media (min-width: 860px) and (max-width: 1440px) {
 
-  /* div.intro {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    width: 100%;
-  } */
+div.intro {
+    /* margin-top: 100px; */
+    /* margin-bottom: 200px; */
+    max-width: 80%;
+  }
 
   .what-we-do-2 li {
     width: 800px;
   } 
+
+  footer {
+    left: 24;
+    /* bottom: 20; */
+    margin-top: 100px;
+    /* margin-bottom: 40px; */
+    /* position: static; */
+  }
 }
 
 
@@ -285,6 +298,14 @@ footer a {
 
   .what-we-do-2 li {
     width: 100%;
+  }
+
+  footer {
+    left: 24;
+    /* bottom: 20; */
+    margin-top: 100px;
+    /* margin-bottom: 40px; */
+    position: static;
   }
 }  
 
@@ -303,10 +324,10 @@ footer a {
     /* margin-bottom: 80px; */
   } 
 
-  /* h2.description {
-    font-size: 64px;
-    line-height: 1.2;
-  } */
+  h2.description {
+    font-size: 24px;
+    /* line-height: 1.45; */
+  }
 
   .what-we-do-2 li {
     font-size: 16px;
@@ -320,10 +341,10 @@ footer a {
 
   footer {
     left: 24;
-    bottom: 20;
-    /* margin-top: 100px; */
+    /* bottom: 20; */
+    margin-top: 80px;
     /* margin-bottom: 40px; */
-    /* position: static; */
+    position: static;
   }
 
 }

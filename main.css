@@ -178,6 +178,7 @@ footer {
 footer p {
   font-size: 11px;
   color: #999999;
+  margin-left: 20px;
 }
 
 footer a {
@@ -255,7 +256,7 @@ footer a {
 
   .what-we-do-2 li {
     font-size: 21px;
-    width: 800px;
+    /* width: 800px; */
   }
 
   footer p {
@@ -268,7 +269,7 @@ footer a {
 div.intro {
     /* margin-top: 100px; */
     /* margin-bottom: 200px; */
-    max-width: 80%;
+    /* max-width: 80%; */
   }
 
   .what-we-do-2 li {

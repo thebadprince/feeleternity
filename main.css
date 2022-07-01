@@ -178,7 +178,7 @@ footer {
 footer p {
   font-size: 11px;
   color: #999999;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 footer a {
@@ -220,6 +220,7 @@ footer a {
   div.intro {
     /* margin-top: 48px; */
     width: 60%;
+    margin-bottom: 200px;
   }
 
   h2.description {
@@ -268,7 +269,7 @@ footer a {
 
 div.intro {
     /* margin-top: 100px; */
-    /* margin-bottom: 200px; */
+    margin-bottom: 200px;
     /* max-width: 80%; */
   }
 
@@ -277,11 +278,11 @@ div.intro {
   } 
 
   footer {
-    left: 24;
+    /* left: 24; */
     /* bottom: 20; */
     margin-top: 100px;
     /* margin-bottom: 40px; */
-    /* position: static; */
+    position: static;
   }
 }
 
@@ -341,7 +342,7 @@ div.intro {
   }
 
   footer {
-    left: 24;
+    /* left: 24; */
     /* bottom: 20; */
     margin-top: 80px;
     /* margin-bottom: 40px; */

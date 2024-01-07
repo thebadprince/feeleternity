@@ -28,19 +28,19 @@ body {
 }
 
 
-@media (min-width: 320px) and (max-width: 490px) {
+@media (min-width: 320px) and (max-width: 640px) {
 
     body {
-        margin: 8px;
+        margin: 16px;
         width: 100%;
     }
 
     .content h1 {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .content p {
-        font-size: 2rem;
+        font-size: 1.85rem;
     }
 
 }

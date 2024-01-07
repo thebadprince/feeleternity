@@ -20,11 +20,11 @@ body {
 
 .content p {
     font-size: 2rem;
-    line-height: 1.4;
+    line-height: 1.45;
     margin-top: 0;
     color: #888;
     font-family: 'Gambetta', serif;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 
@@ -32,15 +32,15 @@ body {
 
     body {
         margin: 16px;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .content h1 {
-        font-size: 1.6rem;
+        font-size: 1.75rem;
     }
 
     .content p {
-        font-size: 1.4rem;
+        font-size: 1.75rem;
     }
 
 }

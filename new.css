@@ -12,14 +12,14 @@ body {
 }
 
 .content h1 {
-    font-size: 52px;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 40px;
     font-family: 'Panchang', sans-serif;
 }
 
 .content p {
-    font-size: 40px;
+    font-size: 2rem;
     line-height: 1.4;
     margin-top: 0;
     color: #888;
@@ -27,3 +27,15 @@ body {
     margin-bottom: 1rem;
 }
 
+
+/* @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+} */

@@ -4,25 +4,26 @@ html {
 }
   
 body {
-    background-color: #fff;
+    background-color: #222;
     line-height: 1.6;
     font-family: serif;
-    color: #121212;
     margin: 40px 60px;
 }
 
 .content h1 {
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     font-family: 'Panchang', sans-serif;
+    color: #fff;
+    /* text-align: center; */
 }
 
 .content p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.45;
     margin-top: 0;
-    color: #888;
+    color: #999;
     font-family: 'Gambetta', serif;
     margin-bottom: 1.25rem;
 }
@@ -36,11 +37,12 @@ body {
     }
 
     .content h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
     }
 
     .content p {
-        font-size: 2rem;
+        font-size: 1.85rem;
     }
 
 }

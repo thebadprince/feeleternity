@@ -11,6 +11,22 @@ body {
     font-family: 'Gambetta', serif;
 }
 
+.universe {
+    
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
 .content h1 {
     font-size: 3rem;
     font-weight: 600;
@@ -18,6 +34,8 @@ body {
     font-family: 'Panchang', sans-serif;
     color: #fff;
     /* text-align: center; */
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
 }
 
 .content p {
@@ -26,12 +44,16 @@ body {
     margin-top: 0;
     color: #999;
     margin-bottom: 1.8rem;
+    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+    animation: 4s ease 0s normal forwards 1 fadein;
 }
 
 .quote {
     margin-top: 6rem;
     font-size: 1.5rem;
     color: #6a6a6a;
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 @media (min-width: 320px) and (max-width: 640px) {

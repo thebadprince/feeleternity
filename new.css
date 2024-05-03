@@ -56,6 +56,13 @@ sup {
     color: #6D676E;
 }
 
+@media (min-width: 1600px) {
+    .content p {
+        font-size: 2rem;
+        letter-spacing: 0;
+        width: 800px;
+}
+
 
 @media (min-width: 640px) and (max-width: 1023px) {
 

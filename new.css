@@ -95,4 +95,11 @@ sup {
         letter-spacing: 0;
         width: 100%;
     }
+
+    sup {
+        font-size: .85rem;
+        font-weight: 700;
+        font-family: monospace;
+        color: #6D676E;
+    }
 }

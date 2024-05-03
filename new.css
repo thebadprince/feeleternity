@@ -4,11 +4,10 @@ html {
 }
   
 body {
-    background-color: #222;
-    line-height: 1.6;
-    font-family: serif;
+    background-color: #1B1B1E;
     margin: 40px 60px;
     font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
 }
 
 @keyframes fadein{
@@ -28,21 +27,22 @@ body {
 }
 
 .content h1 {
-    font-size: 7.5rem;
+    font-size: 7.25rem;
     line-height: 1.1;
-    font-weight: 400;
+    letter-spacing: -4.6px;
+    font-weight: 300;
     margin-bottom: 6rem;
-    color: #fff;
-    /* text-align: center; */
+    color: #FAA916;
     -webkit-animation: 2s ease 0s normal forwards 1 fadein;
     animation: 2s ease 0s normal forwards 1 fadein;
 }
 
 .content p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 1.4;
+    letter-spacing: -0.5px;
     margin-top: 0;
-    color: #999;
+    color: #FBFFFE;
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
@@ -53,7 +53,7 @@ sup {
     font-size: 1rem;
     font-weight: 700;
     font-family: monospace;
-    color: #fff;
+    color: #6D676E;
 }
 
 

@@ -72,7 +72,7 @@ sup {
     }
     
     .content p {
-        width: 100%;
+        width: 100%;}
 }
 
 
@@ -91,7 +91,6 @@ sup {
         letter-spacing: 0;
         width: 100%;
     }
-
 }
 
 @media (min-width: 320px) and (max-width: 640px) {

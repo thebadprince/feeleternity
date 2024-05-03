@@ -57,10 +57,13 @@ sup {
 }
 
 @media (min-width: 1600px) {
+    .content h1 {
+        width: 1440px;
+    }
     .content p {
         font-size: 2rem;
         letter-spacing: 0;
-        width: 800px;
+        width: 720px;
 }
 
 @media (min-width: 1600px) {

@@ -63,6 +63,15 @@ sup {
         width: 800px;
 }
 
+@media (min-width: 1600px) {
+    .content h1 {
+        font-size: 6rem;
+    }
+    
+    .content p {
+        width: 100%;
+}
+
 
 @media (min-width: 640px) and (max-width: 1023px) {
 

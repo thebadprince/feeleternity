@@ -71,6 +71,8 @@ sup {
         width: 100%;
     }
 
+}
+
 @media (min-width: 320px) and (max-width: 640px) {
 
     body {
@@ -89,3 +91,4 @@ sup {
         font-size: 1.5rem;
         width: 100%;
     }
+}

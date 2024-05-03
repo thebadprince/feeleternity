@@ -66,17 +66,17 @@ sup {
         width: 720px;
 }
 
-@media (min-width: 1281px) and (max-width: 1440px) {
+/* @media (min-width: 1281px) and (max-width: 1440px) {
     .content h1 {
         font-size: 6rem;
     }
     
     .content p {
         width: 100%;
-}
+} */
 
 
-@media (min-width: 640px) and (max-width: 1280px) {
+@media (min-width: 640px) and (max-width: 1023px) {
 
     .content h1 {
         font-size: 4rem;

@@ -57,7 +57,7 @@ sup {
 }
 
 
-@media (min-width: 6410px) and (max-width: 1079px) {
+@media (min-width: 640px) and (max-width: 1079px) {
 
     .content h1 {
         font-size: 4rem;

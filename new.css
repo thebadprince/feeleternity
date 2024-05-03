@@ -57,10 +57,11 @@ sup {
 }
 
 
-@media (min-width: 640px) and (max-width: 1079px) {
+@media (min-width: 640px) and (max-width: 1023px) {
 
     .content h1 {
         font-size: 4rem;
+        letter-spacing: -2px;
         margin-top: 4rem;
         margin-bottom: 4rem;
         width: 100%;
@@ -68,6 +69,7 @@ sup {
 
     .content p {
         font-size: 2rem;
+        letter-spacing: 0;
         width: 100%;
     }
 
@@ -82,6 +84,7 @@ sup {
 
     .content h1 {
         font-size: 3rem;
+        letter-spacing: -2px;
         margin-top: 4rem;
         margin-bottom: 4rem;
         width: 100%;
@@ -89,6 +92,7 @@ sup {
 
     .content p {
         font-size: 1.5rem;
+        letter-spacing: 0;
         width: 100%;
     }
 }

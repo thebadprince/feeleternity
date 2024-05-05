@@ -171,12 +171,13 @@ ul {
         width: 100%;
     }
 
-    .links a {
+    .links li, a {
         font-size: 0.8rem;
-        
+        margin-bottom: 1rem;
     }
 
     ul {
         margin-top: 4rem;
+        display: inline-block;
     }
 }

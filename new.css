@@ -6,10 +6,17 @@
 }
 
 @font-face {
-    font-family: 'Signal Mono';
+    font-family: 'iA Writer Mono';
     src: url('../fonts/iAWriter/iAWriterMonoS-Italic.woff');
     font-weight: 400;
     font-style: italic;
+}
+
+@font-face {
+    font-family: 'iA Writer Mono';
+    src: url('../fonts/iAWriter/iAWriterMonoS-Bold.woff');
+    font-weight: 700;
+    font-style: normal;
 }
 
 html {

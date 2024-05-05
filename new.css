@@ -1,14 +1,30 @@
+@font-face {
+    font-family: 'iA Writer Mono';
+    src: url('../fonts/iAWriter/iAWriterMonoS-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signal Mono';
+    src: url('../fonts/iAWriter/iAWriterMonoS-Italic.woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
 html {
     scroll-behavior: smooth;
     width: 100%;
 }
+
   
 body {
     /* background-color: #1B1B1E; */
     background-color: #FBFFFE;
     margin: 4rem 4rem;
-    font-family: 'Public Sans', sans-serif;
-    /* font-weight: 300; */
+    /* font-family: 'Public Sans', sans-serif; */
+    font-family: 'iA Writer Mono', monospace;
+    font-weight: 300;
 }
 
 @keyframes fadein{
@@ -28,9 +44,9 @@ body {
 }
 
 .content h1 {
-    font-size: 6.8rem;
-    line-height: 1.1;
-    letter-spacing: -4.4px;
+    font-size: 2.4em;
+    line-height: 1.25;
+    /* letter-spacing: -4.4px; */
     font-weight: 400;
     margin-bottom: 4rem;
     color: #1B1B1E;
@@ -40,9 +56,9 @@ body {
 }
 
 .content p {
-    font-size: 1.65rem;
-    line-height: 1.35;
-    letter-spacing: -0.5px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    /* letter-spacing: -0.5px; */
     margin-top: 0;
     font-weight: 300;
     /* color: #FBFFFE; */
@@ -54,16 +70,16 @@ body {
 }
 
 sup {
-    font-size: 1rem;
+    font-size: 0.8em;
     font-weight: 400;
-    font-family: 'Azeret Mono', monospace;
-    /* color: #6D676E; */
-    color: #FAA916;
+    /* font-family: 'Azeret Mono', monospace; */
+    color: #6D676E;
+    /* color: #FAA916; */
 }
 
 ul {
     list-style-type: none;
-    margin-top: 4rem;
+    margin-top: 6rem;
     display: flex;
     padding-left: 0;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
@@ -71,12 +87,14 @@ ul {
 }
 
 .links li, a, a:visited {
-    font-size: 1rem;
+    font-size: 0.9em;
     font-weight: 400;
-    font-family: 'Azeret Mono', monospace;
-    margin-right: 1.5rem;
+    text-transform: uppercase;
+    /* font-family: 'Azeret Mono', monospace; */
+    margin-right: 2rem;
     color: #6D676E;
     text-decoration: none;
+    letter-spacing: 0.4px;
 }
 
 .links a:hover {
@@ -108,15 +126,15 @@ ul {
 @media (min-width: 640px) and (max-width: 1023px) {
 
     .content h1 {
-        font-size: 4rem;
-        letter-spacing: -2px;
+        /* font-size: 4rem; */
+        /* letter-spacing: -2px; */
         margin-top: 4rem;
         margin-bottom: 4rem;
         width: 100%;
     }
 
     .content p {
-        font-size: 2rem;
+        /* font-size: 2rem; */
         letter-spacing: 0;
         width: 100%;
     }
@@ -130,21 +148,21 @@ ul {
     }
 
     .content h1 {
-        font-size: 3.4rem;
-        letter-spacing: -2px;
+        /* font-size: 3.4rem; */
+        /* letter-spacing: -2px; */
         margin-top: 3rem;
         margin-bottom: 3rem;
         width: 100%;
     }
 
     .content p {
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
         letter-spacing: 0;
         width: 100%;
     }
 
     sup {
-        font-size: .85rem;
+        /* font-size: .85rem; */
         font-weight: 700;
         font-family: monospace;
     }

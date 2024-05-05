@@ -26,8 +26,8 @@ html {
 
   
 body {
-    background-color: #1B1B1E;
-    /* background-color: #FBFFFE; */
+    /* background-color: #1B1B1E; */
+    background-color: #FBFFFE;
     margin: 4rem 4rem;
     /* font-family: 'Public Sans', sans-serif; */
     font-family: 'iA Writer Mono', monospace;
@@ -57,9 +57,9 @@ body {
     /* letter-spacing: -4.4px; */
     font-weight: 400;
     margin-bottom: 4rem;
-    /* color: #1B1B1E; */
+    color: #1B1B1E;
     /* color: #FBFFFE; */
-    color: #FAA916;
+    /* color: #FAA916; */
     -webkit-animation: 2s ease 0s normal forwards 1 fadein;
     animation: 2s ease 0s normal forwards 1 fadein;
 }
@@ -70,8 +70,8 @@ body {
     /* letter-spacing: -0.5px; */
     margin-top: 0;
     /* font-weight: 300; */
-    color: #FBFFFE;
-    /* color: #1B1B1E; */
+    /* color: #FBFFFE; */
+    color: #1B1B1E;
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;

@@ -51,11 +51,11 @@ body {
 }
 
 .content h1 {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 3em;
-    line-height: 1.1;
+    font-family: 'Archivo', sans-serif;
+    font-size: 3.2em;
+    line-height: 1.2;
     /* letter-spacing: -4.4px; */
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 4rem;
     color: #1B1B1E;
     /* color: #FBFFFE; */
@@ -165,7 +165,7 @@ ul {
     }
 
     .content p {
-        /* font-size: 0.9rem; */
+        font-size: 0.95rem;
         letter-spacing: 0;
         /* margin-bottom: 2rem; */
         width: 100%;

@@ -155,7 +155,7 @@ ul {
     }
 
     .content h1 {
-        /* font-size: 3.4rem; */
+        /* font-size: 0.8rem; */
         /* letter-spacing: -2px; */
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -163,9 +163,18 @@ ul {
     }
 
     .content p {
-        /* font-size: 1.2rem; */
+        font-size: 0.9rem;
         letter-spacing: 0;
+        /* margin-bottom: 2rem; */
         width: 100%;
     }
 
+    .links a {
+        font-size: 0.8rem;
+        
+    }
+
+    ul {
+        margin-top: 4rem;
+    }
 }

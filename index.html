@@ -21,7 +21,16 @@
                 <li><a href="https://www.are.na/feel-eternity/channels" target="_blank">Are.na</a></li>
                 <li><a href="https://feeleternity.ghost.io/" target="_blank">Magazine</a></li>
                 <li><a href="mailto:jomi@feeleternity.com">Contact</a></li>
+                <li id="watch"></li>
             </ul>
-
+        <script>
+            function callDateTime(){
+                var currentDate=(new Date()).toDateString();
+                var currentTime=(new Date()).toLocaleTimeString(); 
+                document.getElementById('watch').innerHTML=`${currentTime}`;
+              }
+            setInterval(function(){  callDateTime() }, 1000);
+        </script>
     </body>
+    
 </html>

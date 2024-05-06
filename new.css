@@ -63,7 +63,7 @@ body {
 }
 
 .content p {
-    font-family: 'Xahn Mono', monospace;
+    font-family: "iA Writer Mono", monospace;
     font-size: 1.1em;
     line-height: 1.65;
     /* letter-spacing: -0.5px; */
@@ -74,7 +74,7 @@ body {
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
-    width: 580px;
+    width:640px;
 }
 
 
@@ -88,7 +88,7 @@ ul {
 }
 
 .links li, a, a:visited {
-    font-family: 'iA Writer Mono';
+    font-family: "iA Writer Mono", monospace;
     font-size: 0.9em;
     font-weight: 400;
     text-transform: uppercase;

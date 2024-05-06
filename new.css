@@ -95,13 +95,17 @@ ul {
     font-weight: 400;
     text-transform: uppercase;
     margin-right: 1.6rem;
-    color: #6D676E;
+    color: #FAA916;
     text-decoration: none;
     letter-spacing: 0.4px;
 }
 
+#watch {
+    color: #6D676E;
+}
+
 .links a:hover {
-    border-bottom: 2px solid #FAA916;
+    border-bottom: 2px solid;
 }
 
 

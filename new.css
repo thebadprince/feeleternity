@@ -93,7 +93,7 @@ ul {
     font-weight: 400;
     text-transform: uppercase;
     margin-right: 1.6rem;
-    color: #FAA916;
+    color: #96031A;
     text-decoration: none;
     letter-spacing: 0.4px;
 }
@@ -114,7 +114,9 @@ ul {
     .content h1, .content p {
         color: #FBFFFE;
     }
-
+    .links li, a, a:visited {
+        color: #FAA916;
+    }
 }
 
 

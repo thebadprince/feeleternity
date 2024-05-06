@@ -30,10 +30,6 @@ body {
     background-color: #FBFFFE;
     color: #1B1B1E;;
     margin: 4rem 4rem;
-    /* font-family: 'Public Sans', sans-serif; */
-    font-family: 'iA Writer Mono', monospace;
-    /* font-family: 'Gambarino', serif; */
-    /* font-weight: 300; */
 }
 
 @keyframes fadein{
@@ -67,6 +63,7 @@ body {
 }
 
 .content p {
+    font-family: 'Xahn Mono', monospace;
     font-size: 1.1em;
     line-height: 1.65;
     /* letter-spacing: -0.5px; */
@@ -91,6 +88,7 @@ ul {
 }
 
 .links li, a, a:visited {
+    font-family: 'iA Writer Mono';
     font-size: 0.9em;
     font-weight: 400;
     text-transform: uppercase;

@@ -29,7 +29,7 @@ body {
     /* background-color: #1B1B1E; */
     background-color: #1B1B1E;
     color: #FBFFFE;
-    margin: 4rem 4rem;
+    margin: 3rem 4rem;
 }
 
 @keyframes fadein{
@@ -45,7 +45,7 @@ body {
 }
 
 .content {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .content h1 {
@@ -54,7 +54,7 @@ body {
     line-height: 1.2;
     /* letter-spacing: -4.4px; */
     font-weight: 619;
-    margin-bottom: 3rem;
+    margin-bottom: 2.8rem;
     /* color: #FBFFFE; */
     /* color: #FAA916; */
     -webkit-animation: 2s ease 0s normal forwards 1 fadein;
@@ -62,8 +62,9 @@ body {
 }
 
 .content p {
-    font-family: "iA Writer Mono", monospace;
-    font-size: 1.1em;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
     line-height: 1.65;
     /* letter-spacing: -0.5px; */
     margin-top: 0;
@@ -73,20 +74,19 @@ body {
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
-    width:640px;
+    width:600px;
 }
 
 
 ul {
     list-style-type: none;
-    margin-top: 6rem;
     display: flex;
     padding-left: 0;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
 }
 
-.links li, a, a:visited {
+.footer li, a, a:visited {
     font-family: "iA Writer Mono", monospace;
     font-size: 0.9em;
     font-weight: 400;
@@ -97,26 +97,35 @@ ul {
     letter-spacing: 0.4px;
 }
 
+.footer a:hover {
+    border-bottom: 3px solid;
+}
+
 #watch {
     color: #6D676E;
 }
 
-.links a:hover {
-    border-bottom: 2px solid;
-}
-
-
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     body {
-        background-color: #1B1B1E
+        background-color: #EEF5FC;
     }
-    .content h1, .content p {
-        color: #FBFFFE;
+
+    .content h1 {
+        color: #061A40;
     }
-    .links li, a, a:visited {
-        color: #FAA916;
+
+    .content p {
+        color: #1B1B1E;
     }
-} */
+
+    .footer li, a, a:visited {
+        color: #0353A4;
+    }
+
+    .footer a:hover {
+        border-bottom: 3px solid #006DAA;
+    }
+}
 
 
 
@@ -146,7 +155,6 @@ ul {
 
     .content h1 {
         font-size: 4rem;
-        /* letter-spacing: -2px; */
         margin-top: 4rem;
         margin-bottom: 4rem;
         width: 100%;
@@ -181,7 +189,7 @@ ul {
         width: 100%;
     }
 
-    .links li, a, a:visited {
+    .footer li, a, a:visited {
         font-size: 0.8rem;
         margin-bottom: 2rem;
     }

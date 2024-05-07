@@ -27,8 +27,8 @@ html {
   
 body {
     /* background-color: #1B1B1E; */
-    background-color: #FBFFFE;
-    color: #1B1B1E;;
+    background-color: #1B1B1E;
+    color: #FBFFFE;
     margin: 4rem 4rem;
 }
 
@@ -55,7 +55,6 @@ body {
     /* letter-spacing: -4.4px; */
     font-weight: 619;
     margin-bottom: 3rem;
-    color: #1B1B1E;
     /* color: #FBFFFE; */
     /* color: #FAA916; */
     -webkit-animation: 2s ease 0s normal forwards 1 fadein;
@@ -69,8 +68,8 @@ body {
     /* letter-spacing: -0.5px; */
     margin-top: 0;
     /* font-weight: 300; */
-    /* color: #FBFFFE; */
-    color: #1B1B1E;
+    color: #FBFFFE;
+    /* color: #1B1B1E; */
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
@@ -93,7 +92,7 @@ ul {
     font-weight: 400;
     text-transform: uppercase;
     margin-right: 1.6rem;
-    color: #96031A;
+    color: #FAA916;
     text-decoration: none;
     letter-spacing: 0.4px;
 }
@@ -107,7 +106,7 @@ ul {
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         background-color: #1B1B1E
     }
@@ -117,7 +116,7 @@ ul {
     .links li, a, a:visited {
         color: #FAA916;
     }
-}
+} */
 
 
 

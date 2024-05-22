@@ -27,6 +27,7 @@ html {
   
 body {
     /* background-color: #1B1B1E; */
+    font-family: "iA Writer Mono", monospace;
     background-color: #1B1B1E;
     color: #FBFFFE;
     margin: 3rem 4rem;
@@ -49,28 +50,22 @@ body {
 }
 
 .content h1 {
-    font-family: 'Panchang', sans-serif;
-    font-size: 5em;
-    line-height: 1.1;
-    /* letter-spacing: -4.4px; */
-    font-weight: 619;
+    /* font-family: 'Panchang', sans-serif;
+    font-size: 5em; */
+    font-size: 1.5em;
+    line-height: 1.2;
     margin-bottom: 3rem;
-    /* color: #FBFFFE; */
-    /* color: #FAA916; */
     -webkit-animation: 2s ease 0s normal forwards 1 fadein;
     animation: 2s ease 0s normal forwards 1 fadein;
-}
+} 
 
 .content p {
-    font-family: "Satoshi", sans-serif;
+    /* font-family: "Satoshi", sans-serif; */
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.65;
-    /* letter-spacing: -0.5px; */
     margin-top: 0;
-    /* font-weight: 300; */
     color: #FBFFFE;
-    /* color: #1B1B1E; */
     margin-bottom: 2rem;
     -webkit-animation: 4s ease 0s normal forwards 1 fadein;
     animation: 4s ease 0s normal forwards 1 fadein;
@@ -105,7 +100,7 @@ ul {
     color: #6D676E;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     body {
         background-color: #EEF5FC;
     }
@@ -125,7 +120,7 @@ ul {
     .footer a:hover {
         border-bottom: 3px solid #006DAA;
     }
-}
+} */
 
 
 

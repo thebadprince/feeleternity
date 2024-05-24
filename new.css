@@ -27,9 +27,9 @@ html {
   
 body {
     /* background-color: #1B1B1E; */
-    font-family: "iA Writer Mono", monospace;
-    background-color: #1B1B1E;
-    color: #FBFFFE;
+    background-color: #202020;
+    /* color: #FBFFFE; */
+    color: #e7e7e7;
     margin: 4rem;
 }
 
@@ -45,32 +45,39 @@ body {
     100% { opacity:1; }
 }
 
+img.logo {
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+}
+
 .content {
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
+    flex-grow: 0 0 auto;
 }
 
 .content h1 {
-    /* font-family: 'Panchang', sans-serif;
-    font-size: 5em; */
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 1.5;
+    /* font-family: 'Expose', sans-serif; */
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 1.1;
     margin-bottom: 3rem;
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+    animation: 4s ease 0s normal forwards 1 fadein;
 } 
 
 .content p {
-    /* font-family: "Satoshi", sans-serif; */
-    font-weight: 500;
-    font-size: 1em;
-    line-height: 1.65;
+    /* font-family: "Supreme", sans-serif; */
+    font-family: 'Bespoke Sans', sans-serif;
+    /* font-weight: 300; */
+    font-size: 1.25em;
+    line-height: 1.4;
     margin-top: 0;
     color: #FBFFFE;
-    margin-bottom: 1rem;
-    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-    animation: 4s ease 0s normal forwards 1 fadein;
+    margin-bottom: 2rem;
     width:560px;
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
 }
 
 
@@ -78,24 +85,31 @@ ul {
     list-style-type: none;
     display: flex;
     padding-left: 0;
-    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-    animation: 4s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 8s ease 0s normal forwards 1 fadein;
+    animation: 8s ease 0s normal forwards 1 fadein;
 }
 
-.footer li, a, a:visited {
+a, a:visited {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 4px solid #ff4500;
+    color: #fff;
+}
+
+.footer li {
     font-family: "iA Writer Mono", monospace;
-    font-size: 0.9em;
+    font-size: .9em;
     font-weight: 400;
     text-transform: uppercase;
     margin-right: 1.6rem;
-    color: #FAA916;
-    text-decoration: none;
     letter-spacing: 0.4px;
 }
 
-.footer a:hover {
-    border-bottom: 3px solid;
-}
+
+
 
 #watch {
     color: #6D676E;
@@ -166,7 +180,7 @@ ul {
 @media (min-width: 320px) and (max-width: 640px) {
 
     body {
-        margin: 16px;
+        margin: 20px;
         /* width: 100%; */
     }
 
@@ -174,20 +188,25 @@ ul {
         margin-bottom: 4rem;
     }
 
+    img.logo {
+        width: 60%;
+    }
+
     .content h1 {
-        font-size: 1.5rem;
+        font-size: 2.75rem;
+        line-height: 1.2;
         margin-top: 2rem;
         margin-bottom: 2rem;
         width: 100%;
     }
 
     .content p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         letter-spacing: 0;
         width: 100%;
     }
 
-    .footer li, a, a:visited {
+    .footer li {
         font-size: 0.8rem;
         margin-bottom: 2rem;
     }

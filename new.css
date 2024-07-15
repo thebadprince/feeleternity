@@ -80,6 +80,17 @@ img.logo {
     animation: 6s ease 0s normal forwards 1 fadein;
 }
 
+.content p a, a:visited {
+    text-decoration: none;
+    border-bottom: 4px solid #ff4500;
+    color: #FBFFFE;
+}
+
+.content a:hover{
+    border-bottom: 4px solid #ff4500;
+    color: #ff4500;
+}
+
 
 ul {
     list-style-type: none;
@@ -89,17 +100,17 @@ ul {
     animation: 8s ease 0s normal forwards 1 fadein;
 }
 
-a, a:visited {
+footer a, a:visited {
     color: #ff4500;
     text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
     border-bottom: 4px solid #ff4500;
     color: #fff;
 }
 
-.footer li {
+footer li {
     font-family: "iA Writer Mono", monospace;
     font-size: .9em;
     font-weight: 400;
@@ -206,7 +217,7 @@ a:hover {
         width: 100%;
     }
 
-    .footer li {
+    footer li {
         font-size: 0.8rem;
         margin-bottom: 2rem;
     }
